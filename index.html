@@ -1,87 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | [Challenge Name Here]</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
 
   Social Media Dashboard
   Total Followers: 23,004
 
   Dark Mode
+  <label class="switch">
+    <input type="checkbox">
+  </label>
 
-  
+  <div class="container-lrg">
 
-  @nathanf
-  1987
-  Followers
-  12 Today
+    <div class="border-pnl fbook">
+      <div class="panel lrg-panel">
+        <div class="social-banner">
+          <img src="images/icon-facebook.svg" alt="facebook logo">
+          <p class="pale-blue user-handle">@nathanf</p>
+        </div>
+        <p class="lrg-count">1987</p>
+        <p class="thin-txt">FOLLOWERS</p>
+        <img src="images/icon-up.svg" alt="arrow up"> <span class="up-down">12 Today</span>
+      </div>
+    </div>
 
-  @nathanf
-  1044
-  Followers
-  99 Today
+    <div class="border-pnl twitter">
+      <div class="panel lrg-panel ">
+        <div class="social-banner">
+          <img src="images/icon-twitter.svg" alt="twitter logo">
+          <p class="pale-blue user-handle">@nathanf</p>
+        </div>
+        <p class="lrg-count">1044</p>
+        <p class="thin-txt">FOLLOWERS</p>
+        <img src="images/icon-up.svg" alt="arrow up"> <span class="up-down">99 Today</span>
+      </div>
+    </div>
 
-  @realnathanf
-  11k
-  Followers
-  1099 Today
+    <div class="border-pnl insta">
+      <div class="panel lrg-panel">
+        <div class="social-banner">
+          <img src="images/icon-instagram.svg" alt="instagram logo">
+          <p class="pale-blue user-handle">@realnathanf</p>
+        </div>
+        <p class="lrg-count">11k</p>
+        <p class="thin-txt">FOLLOWERS</p>
+        <img src="images/icon-up.svg" alt="arrow up"> <span class="up-down">1099 Today</span>
+      </div>
+    </div>
 
-  Nathan F.
-  8239
-  Subscribers
-  144 Today
+    <div class="border-pnl youtube">
+      <div class="panel lrg-panel">
+        <div class="social-banner">
+          <img src="images/icon-youtube.svg" alt="youtube logo">
+          <p class="pale-blue user-handle">Nathan F.</p>
+        </div>
+        <p class="lrg-count">8239</p>
+        <p class="thin-txt">SUBSCRIBERS</p>
+        <img src="images/icon-down.svg" alt="arrow down"> <span class="up-down">144 Today</span>
+      </div>
+    </div>
 
-
+  </div>
 
   Overview - Today
+  <div class="container-sml">
 
-  Page Views
-  87
-  3%
+    <div class="panel small-panel">
+      Page Views
+      <img src="images/icon-facebook.svg" alt="facebook logo">
+      <p class="small-number inline">87</p>
+      <p class="inline"><img class="arrow" src="images/icon-up.svg" alt="arrow up"><span class="up-down">3%</span></p>
+    </div>
 
-  Likes
-  52
-  2%
+    <div class="panel small-panel">
+      Likes
+      <img src="images/icon-facebook.svg" alt="facebook logo">
+      <p class="small-number">52</p>
+      <img class="arrow" src="images/icon-down.svg" alt="arrow down"><span class="up-down">2%</span>
+    </div>
 
-  Likes
-  5462
-  2257%
+    <div class="panel small-panel">
+      Likes
+      <img src="images/icon-instagram.svg" alt="instagram logo">
+      <p class="small-number">5462</p>
+      <img class="arrow" src="images/icon-up.svg" alt="arrow up"><span class="up-down">2257%</span>
+    </div>
 
-  Profile Views
-  52k
-  1375%
+    <div class="panel small-panel">
+      Profile Views
+      <img src="images/icon-instagram.svg" alt="instagram logo">
+      <p class="small-number">52k</p>
+      <img class="arrow" src="images/icon-up.svg" alt="arrow up"><span class="up-down">1375%</span>
+    </div>
 
-  Retweets
-  117
-  303%
+    <div class="panel small-panel">
+      Retweets
+      <img src="images/icon-twitter.svg" alt="twitter logo">
+      <p class="small-number">117</p>
+      <img class="arrow" src="images/icon-up.svg" alt="arrow up"><span class="up-down">303%</span>
+    </div>
 
-  Likes
-  507
-  553%
+    <div class="panel small-panel">
+      <p class="small-number">Likes
+        <img src="images/icon-twitter.svg" alt="twitter logo">
+      <p class="small-number">507</p>
+      <img class="arrow" src="images/icon-up.svg" alt="arrow up"><span class="up-down">553%</span>
+    </div>
 
-  Likes
-  107
-  19%
+    <div class="panel small-panel">
+      Likes
+      <img src="images/icon-youtube.svg" alt="youtube logo">
+      <p class="small-number">107</p>
+      <img class="arrow" src="images/icon-down.svg" alt="arrow down"><span class="up-down">19%</span>
+    </div>
 
-  Total Views
-  1407
-  12%
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    <div class="panel small-panel">
+      Total Views
+      <img src="images/icon-youtube.svg" alt="youtube logo">
+      <p class="small-number">1407</p>
+      <img src="images/icon-down.svg" alt="arrow down"><span class="up-down">12%</span>
+    </div>
+
   </div>
+
+  <div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://stecoleman.com">Ste Coleman</a>.
+    </div>
 </body>
+
 </html>
