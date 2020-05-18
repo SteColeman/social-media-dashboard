@@ -92,6 +92,7 @@ h2 {
 }
 
 /* DARK MODE SWITCH*/
+/*code taken from https://www.w3schools.com/howto/howto_css_switch.asp */
 .switch {
   position: relative;
   display: inline-block;
@@ -131,7 +132,7 @@ input:checked + .slider {
 input:checked + .slider:before {
   transform: translateX(22px);
 }
-
+/* end of code taken from W3schools*/
 /*MOBILE FIRST*/
 /* Large Panels */
 
