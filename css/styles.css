@@ -21,6 +21,13 @@ h2 {
   letter-spacing: 0.3rem;
   margin-top: 0;
 }
+.green {
+  color: hsl(163, 72%, 41%);
+}
+
+.red {
+  color: hsl(356, 69%, 56%);
+}
 
 /*dark theme colors*/
 .darkestBlue {
