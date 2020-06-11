@@ -1,0 +1,22 @@
+/*light theme colors*/
+
+.lightModeWhite {
+  color: hsl(0, 0%, 100%);
+  display: none;
+}
+
+.light-pale-blue {
+  color: hsl(225, 100%, 98%);
+}
+
+.light-grey-blue {
+  color: hsl(227, 47%, 96%);
+}
+
+.dark-grey-blue {
+  color: hsl(228, 12%, 44%);
+}
+
+.light-dark-blue {
+  color: hsl(230, 17%, 14%);
+}
