@@ -114,9 +114,17 @@ input:checked + .slider:before {
   padding: 1rem 1.5rem 0 1.5rem;
 }
 
-.dark-mode-switch {
+.dark-mode-div {
   display: flex;
   justify-content: space-between;
+  max-width: 90%;
+  margin: 5% auto;
+
+}
+
+.dark-mode-txt {
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .line {
@@ -125,7 +133,7 @@ input:checked + .slider:before {
   margin: auto;
   border-color: hsl(228, 26%, 27%);
 }
-
+/* Large Panels */
 .container-lrg {
   padding-top: 2rem;
 }
@@ -238,11 +246,12 @@ input:checked + .slider:before {
     display: none;
   }
 
-  .dark-mode-switch {
-    display: inline;
+  .dark-mode-div {
+    display: flex;
     font-size: 12px;
     grid-column: 10 /span 2;
     padding-top: 2rem;
+    justify-content: flex-start;
   }
 
   .switch {
