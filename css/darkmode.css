@@ -1,5 +1,5 @@
 /*dark theme colors*/
-.darkestBlue {
+/* .darkestBlue {
   background-color: hsl(230, 17%, 14%);
 }
 
@@ -17,4 +17,25 @@
 
 .dark-mode-white {
   color: hsl(0, 0%, 100%);
+} */
+
+body {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(230, 17%, 14%);
+}
+
+.thin-txt, .userhandle, .total-count {
+  color: hsl(228, 34%, 66%);
+}
+
+.header-background {
+  background-color: hsl(232, 19%, 15%);
+}
+
+.panel {
+  background-color: hsl(228, 28%, 20%);
+}
+
+.panel:hover {
+  background-color: hsl(228, 26%, 27%);
 }

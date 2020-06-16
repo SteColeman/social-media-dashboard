@@ -11,24 +11,26 @@
   <title>Frontend Mentor | Social Media Dashboard with Theme Switcher</title>
 </head>
 
-<body id="darkestBlue" class="darkestBlue light-mode-white">
+<body>
   <div class="header-background">
   </div>
   <div class="header">
     <div class="header-txt">
       <h1>Social Media Dashboard</h1>
-      <p class="pale-blue bold total-count">Total Followers: 23,004</p>
+      <p class="bold total-count">Total Followers: 23,004</p>
     </div>
     <div class="line">
     </div>
     <div class="dark-mode-switch bold-text pale-blue">
-      Dark Mode
+      <p class="dark-mode-switch bold">Dark Mode</p>
+
       <!--Code taken from https://www.w3schools.com/howto/howto_css_switch.asp -->
       <label class="switch">
         <input type="checkbox" id="switcher">
         <span class="slider"></span>
       </label>
       <!-- end of code taken from W3schools -->
+
     </div>
   </div>
 
@@ -38,11 +40,11 @@
       <div class="panel lrg-panel">
         <div class="social-banner">
           <img src="images/icon-facebook.svg" alt="facebook logo">
-          <p class="pale-blue user-handle">@nathanf</p>
+          <p class="user-handle">@nathanf</p>
         </div>
         <p class="lrg-count">1987</p>
-        <p class="thin-txt pale-blue">FOLLOWERS</p>
-        <img src="images/icon-up.svg" alt="arrow up"> <span class="up-down green">12 Today</span>
+        <p class="thin-txt">FOLLOWERS</p>
+        <img src="images/icon-up.svg" alt="arrow up"> <span class="up-down green"> 12 Today</span>
       </div>
     </div>
 
@@ -50,10 +52,10 @@
       <div class="panel lrg-panel ">
         <div class="social-banner">
           <img src="images/icon-twitter.svg" alt="twitter logo">
-          <p class="pale-blue user-handle">@nathanf</p>
+          <p class="user-handle">@nathanf</p>
         </div>
         <p class="lrg-count">1044</p>
-        <p class="thin-txt pale-blue">FOLLOWERS</p>
+        <p class="thin-txt">FOLLOWERS</p>
         <img src="images/icon-up.svg" alt="arrow up"> <span class="up-down green">99 Today</span>
       </div>
     </div>
@@ -62,10 +64,10 @@
       <div class="panel lrg-panel">
         <div class="social-banner">
           <img src="images/icon-instagram.svg" alt="instagram logo">
-          <p class="pale-blue user-handle">@realnathanf</p>
+          <p class="user-handle">@realnathanf</p>
         </div>
         <p class="lrg-count">11k</p>
-        <p class="thin-txt pale-blue">FOLLOWERS</p>
+        <p class="thin-txt">FOLLOWERS</p>
         <img src="images/icon-up.svg" alt="arrow up"> <span class="up-down green">1099 Today</span>
       </div>
     </div>
@@ -74,14 +76,13 @@
       <div class="panel lrg-panel">
         <div class="social-banner">
           <img src="images/icon-youtube.svg" alt="youtube logo">
-          <p class="pale-blue user-handle">Nathan F.</p>
+          <p class="user-handle">Nathan F.</p>
         </div>
         <p class="lrg-count">8239</p>
-        <p class="thin-txt pale-blue">SUBSCRIBERS</p>
+        <p class="thin-txt">SUBSCRIBERS</p>
         <img src="images/icon-down.svg" alt="arrow down"> <span class="up-down red">144 Today</span>
       </div>
     </div>
-
   </div>
 
   <h2>Overview - Today</h2>
@@ -89,89 +90,90 @@
 
     <div class="panel small-panel">
       <div class="small-pnl-top">
-        Page Views
+        <p class="small-pnl-header">Page Views</p>
         <img src="images/icon-facebook.svg" alt="facebook logo">
       </div>
       <div class="small-pnl-btm">
         <p class="small-number">87</p>
-        <p class="percentage"><img class="arrow" src="images/icon-up.svg" alt="arrow up"><span class="up-down green">3%</span></p>
+        <p class="percentage"><img class="arrow" src="images/icon-up.svg" alt="arrow up"><span class="up-down green"> 3%</span></p>
       </div>
     </div>
 
     <div class="panel small-panel">
       <div class="small-pnl-top">
-        Likes
+        <p class="small-pnl-header">Likes</p>
         <img src="images/icon-facebook.svg" alt="facebook logo">
       </div>
       <div class="small-pnl-btm">
         <p class="small-number">52</p>
-        <p class="percentage"><img class="arrow" src="images/icon-down.svg" alt="arrow down"><span class="up-down red">2%</span></p>
+        <p class="percentage"><img class="arrow" src="images/icon-down.svg" alt="arrow down"><span class="up-down red"> 2%</span></p>
       </div>
     </div>
 
     <div class="panel small-panel">
       <div class="small-pnl-top">
-        Likes
+        <p class="small-pnl-header">Likes</p>
         <img src="images/icon-instagram.svg" alt="instagram logo">
       </div>
       <div class="small-pnl-btm">
         <p class="small-number">5462</p>
-        <p class="percentage"><img class="arrow" src="images/icon-up.svg" alt="arrow up"><span class="up-down green">2257%</span></p>
+        <p class="percentage"><img class="arrow" src="images/icon-up.svg" alt="arrow up"><span class="up-down green"> 2257%</span></p>
       </div>
     </div>
 
     <div class="panel small-panel">
       <div class="small-pnl-top">
-        Profile Views
+        <p class="small-pnl-header">Profile Views</p>
         <img src="images/icon-instagram.svg" alt="instagram logo">
       </div>
       <div class="small-pnl-btm">
         <p class="small-number">52k</p>
-        <p class="percentage"><img class="arrow" src="images/icon-up.svg" alt="arrow up"><span class="up-down green">1375%</span></p>
+        <p class="percentage"><img class="arrow" src="images/icon-up.svg" alt="arrow up"><span class="up-down green"> 1375%</span></p>
       </div>
     </div>
 
     <div class="panel small-panel">
       <div class="small-pnl-top">
-        Retweets
+        <p class="small-pnl-header">Retweets</p>
         <img src="images/icon-twitter.svg" alt="twitter logo">
       </div>
       <div class="small-pnl-btm">
         <p class="small-number">117</p>
-        <p class="percentage"><img class="arrow" src="images/icon-up.svg" alt="arrow up"><span class="up-down green">303%</span></p>
+        <p class="percentage"><img class="arrow" src="images/icon-up.svg" alt="arrow up"><span class="up-down green"> 303%</span></p>
       </div>
     </div>
 
     <div class="panel small-panel">
       <div class=" small-pnl-top">
-        Likes
+        <p class="small-pnl-header">Likes</p>
         <img src="images/icon-twitter.svg" alt="twitter logo">
       </div>
       <div class="small-pnl-btm">
         <p class="small-number">507</p>
-        <p class="percentage"><img class="arrow" src="images/icon-up.svg" alt="arrow up"><span class="up-down green">553%</span></p>
+        <p class="percentage"><img class="arrow" src="images/icon-up.svg" alt="arrow up"><span class="up-down green"> 553%</span></p>
       </div>
     </div>
 
     <div class="panel small-panel">
       <div class="small-pnl-top">
-        Likes
+        <p class="small-pnl-header">Likes</p>
         <img src="images/icon-youtube.svg" alt="youtube logo">
       </div>
       <div class="small-pnl-btm">
         <p class="small-number">107</p>
-        <p class="percentage"><img class="arrow" src="images/icon-down.svg" alt="arrow down"><span class="up-down red">19%</span></p>
+        <p class="percentage"><img class="arrow" src="images/icon-down.svg" alt="arrow down"><span class="up-down red"> 19%</span></p>
       </div>
     </div>
 
     <div class="panel small-panel">
       <div class="small-pnl-top">
-        Total Views
+        <p class="small-pnl-header">Total Views</p>
+
         <img src="images/icon-youtube.svg" alt="youtube logo">
       </div>
       <div class="small-pnl-btm">
         <p class="small-number">1407</p>
-        <p class="percentage"><img class="arrow" src="images/icon-down.svg" alt="arrow down"><span class="up-down red">12%</span></p>
+        <p class="percentage"><img class="arrow" src="images/icon-down.svg" alt="arrow down"><span class="up-down red"> 12%</span></p>
       </div>
     </div>
 

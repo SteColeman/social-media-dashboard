@@ -20,3 +20,23 @@
 .light-dark-blue {
   color: hsl(230, 17%, 14%);
 }
+
+body {
+  background-color: color: hsl(0, 0%, 100%);
+  color: black;
+}
+
+h2, .total-count, .dark-mode-switch, .thin-txt, .user-handle, .small-pnl-header {
+  color: hsl(228, 12%, 44%);
+}
+
+.header-background {
+  background-color: hsl(225, 100%, 98%);
+}
+
+.panel {
+  background-color: hsl(227, 47%, 96%);
+}
+.panel:hover {
+  background-color: hsl(240, 26%, 91%);
+}

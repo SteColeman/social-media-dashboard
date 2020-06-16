@@ -1,7 +1,6 @@
 /* Global Styles */
 body {
   font-family: 'Inter', sans-serif;
-  color: hsl(0, 0%, 100%);
   margin: 0;
   font-size: 14px;
 }
@@ -29,10 +28,6 @@ h2 {
   color: hsl(356, 69%, 56%);
 }
 
-
-
-
-
 .bold-text {
   font-weight: 700;
 }
@@ -49,17 +44,15 @@ h2 {
 }
 
 .panel {
-  background-color: hsl(228, 28%, 20%);
   border-radius: 0 0 5px 5px;
 }
 
 .panel:hover {
   cursor: pointer;
-  background-color: hsl(228, 26%, 27%);
 }
 
 /* DARK MODE SWITCH*/
-/*code taken from https://www.w3schools.com/howto/howto_css_switch.asp */
+/*code taken from https://www.w3schools.com/howto/howto_css_switch.asp  adapted and changed for use here. */
 .switch {
   position: relative;
   display: inline-block;
@@ -91,8 +84,8 @@ h2 {
   border-radius: 50%;
 }
 
-input:checked + .slider {
-  background-image: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+ input:checked + .slider {
+   background-image: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
 }
 
 
@@ -109,7 +102,6 @@ input:checked + .slider:before {
 /* Large Panels */
 
 .header-background {
-  background-color: hsl(232, 19%, 15%);
   height: 200px;
   width: 100%;
   border-radius: 0 0 20px 20px;
@@ -181,6 +173,7 @@ input:checked + .slider:before {
 
 .up-down {
   font-size: 12px;
+  font-weight: bold;
 }
 
 /* Small Panels */
@@ -190,11 +183,17 @@ input:checked + .slider:before {
   height: 120px;
   margin: auto auto 1rem;
   padding: 1.5rem;
+  border-radius: 5px;
 }
 
 .small-pnl-top {
   display: flex;
   justify-content: space-between;
+}
+
+.small-pnl-header {
+  margin: 0;
+  font-weight: bold;
 }
 
 .small-pnl-btm {
@@ -250,6 +249,10 @@ input:checked + .slider:before {
     margin-left: 0.5rem;
   }
 
+  .dark-mode-switch p {
+    padding-right: 0;
+  }
+
   .container-lrg {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -259,11 +262,11 @@ input:checked + .slider:before {
   }
 
   .border-pnl {
-    width: 250px;
+    width: 255px;
   }
 
   .lrg-panel {
-    width: 250px;
+    width: 255px;
   }
 
   h2 {
@@ -279,6 +282,6 @@ input:checked + .slider:before {
   }
 
   .small-panel {
-    width: 250px;
+    width: 255px;
   }
 }
